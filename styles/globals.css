@@ -1,0 +1,27 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #fafbfc;
+  margin: 0;
+  padding: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 8px;
+}
+th, td {
+  padding: 4px 8px;
+  text-align: right;
+}
+th {
+  background: #f0f0f0;
+}
+@media (max-width: 900px) {
+  .orderbook-panels {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  table {
+    font-size: 14px;
+  }
+}

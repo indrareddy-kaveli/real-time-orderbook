@@ -1,0 +1,32 @@
+{
+  "name": "real-time-orderbook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.11.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.2.1",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "^15.4.4",
+    "next": "^15.4.5",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-select": "^5.10.2",
+    "recharts": "^3.1.0",
+    "socket.io-client": "^4.8.1",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "zod": "^4.0.13"
+  }
+}
